@@ -15,7 +15,10 @@ function LandingPage() {
                 </Link>
             </div>
 
-            <div className='header border px-2 border-black rounded-xl w-1/2 flex flex-col mb-5 md:gap-8 justify-center md:flex-row'>
+            <div className='header border px-2 border-black rounded-xl w-fit flex flex-col mb-5 md:gap-8 justify-center md:flex-row'>
+                <Link href="/" passHref>
+                <h3 className='text-2xl text-bold mb-2 md:mb-0'>Home</h3>
+                </Link>
                 <Link href="/rules" passHref>
                 <h3 className='text-2xl text-bold mb-2 md:mb-0'>Rules</h3>
                 </Link>
@@ -32,7 +35,7 @@ function LandingPage() {
                     <h3 className='text-2xl text-bold mb-2 md:mb-0'>Discord</h3>
                 </a>
             </div>
-            <h1 className="text-5xl md:text-6xl font-bold mb-4 text-gray-800">Capture The Flag Challenge</h1>
+            <h1 className="text-5xl md:text-6xl font-bold mb-4 text-gray-800">Capture The Flag</h1>
             <p className="text-lg md:text-xl text-gray-600 mb-8">Test your cybersecurity skills in our exciting CTF competition!</p>
 
             <div className="md:w-2/3 lg:w-1/2 mx-auto mt-10 p-6 bg-white rounded-lg shadow-lg">

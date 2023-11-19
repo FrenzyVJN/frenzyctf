@@ -15,7 +15,10 @@ function Rules() {
                 </Link>
             </div>
 
-            <div className='header border px-2 border-black rounded-xl w-1/2 flex flex-col mb-5 md:gap-8 justify-center md:flex-row'>
+            <div className='header border px-2 border-black rounded-xl w-fit flex flex-col mb-5 md:gap-8 justify-center md:flex-row'>
+                <Link href="/" passHref>
+                <h3 className='text-2xl text-bold mb-2 md:mb-0'>Home</h3>
+                </Link>
                 <Link href="/rules" passHref>
                 <h3 className='text-2xl text-bold mb-2 md:mb-0'>Rules</h3>
                 </Link>
@@ -33,7 +36,7 @@ function Rules() {
                 </a>
             </div>
 
-            <h1 className='text-2xl md:text-4xl text-bold text-center'>FrenzyCTF</h1>
+            <h1 className='text-5xl md:text-6xl font-bold mb-4 text-gray-800'>FrenzyCTF</h1>
             <br />
             <div className='border border-black flex flex-col h-1/2 w-4/5 md:w-1/2 p-5 rounded-xl'>
                 <h1 className='text-2xl font-bold mb-4'>Rules:</h1>
