@@ -6,7 +6,7 @@ function Register() {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
-    const handleRegister = async (e) => {
+    const handleRegister = async (e: { preventDefault: () => void; }) => {
         e.preventDefault();
         // Add your registration logic here, e.g., API calls, authentication library usage, etc.
         console.log('Registering with:', { email, password });
