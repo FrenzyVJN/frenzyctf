@@ -15,24 +15,24 @@ function LandingPage() {
                 </Link>
             </div>
 
-            <div className='header border px-2 border-black rounded-xl w-fit flex flex-col mb-5 md:gap-8 justify-center md:flex-row'>
+            <div className='header border px-2 border-black rounded-xl w-fit flex flex-col mt-3 mb-5 md:gap-8 justify-center md:flex-row'>
                 <Link href="/" passHref>
-                <h3 className='text-2xl text-bold mb-2 md:mb-0'>Home</h3>
+                    <h3 className='text-xl text-bold mb-2 md:mb-0'>Home</h3>
                 </Link>
                 <Link href="/rules" passHref>
-                <h3 className='text-2xl text-bold mb-2 md:mb-0'>Rules</h3>
+                    <h3 className='text-xl text-bold mb-2 md:mb-0'>Rules</h3>
                 </Link>
                 <Link href="/scoreboard" passHref>
-                <h3 className='text-2xl text-bold mb-2 md:mb-0'>Scoreboard</h3>
+                    <h3 className='text-xl text-bold mb-2 md:mb-0'>Scoreboard</h3>
                 </Link>
                 <Link href="/teams" passHref>
-                <h3 className='text-2xl text-bold mb-2 md:mb-0'>Teams</h3>
+                    <h3 className='text-xl text-bold mb-2 md:mb-0'>Teams</h3>
                 </Link>
                 <Link href="/challenges" passHref>
-                <h3 className='text-2xl text-bold mb-2 md:mb-0'>Challenges</h3>
+                    <h3 className='text-xl text-bold mb-2 md:mb-0'>Challenges</h3>
                 </Link>
                 <a href='https://discord.gg/hnCJAFT7ka' target="_blank" rel="noopener noreferrer">
-                    <h3 className='text-2xl text-bold mb-2 md:mb-0'>Discord</h3>
+                    <h3 className='text-xl text-bold mb-2 md:mb-0'>Discord</h3>
                 </a>
             </div>
             <h1 className="text-5xl md:text-6xl font-bold mb-4 text-gray-800">Capture The Flag</h1>
