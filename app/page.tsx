@@ -53,6 +53,7 @@ function LandingPage() {
                 <p className="text-gray-700 mb-4">
                     Join the competition, solve challenges to obtain flags, and climb the scoreboard. Participate individually or form a team for collaborative success.
                 </p>
+
             </div>
         </div>
     );
