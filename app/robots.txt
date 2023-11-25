@@ -1,2 +1,2 @@
 User-agent: *
-flag{test}
+flag{g00gl3_c4nt_s33_m3}
