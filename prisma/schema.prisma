@@ -1,0 +1,33 @@
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["driverAdapters"]
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+
+model Team {
+  id         Int         @id @default(autoincrement())
+  name       String
+  score      Int         @default(0)
+  challenges Challenge[]
+  members    User[]      @relation("TeamToUser")
+}
+
+model User {
+  id    Int    @id @default(autoincrement())
+  name  String
+  email String @unique
+  teams Team[] @relation("TeamToUser")
+}
+
+model Challenge {
+  id          Int    @id @default(autoincrement())
+  title       String
+  description String
+  teamId      Int
+  team        Team   @relation(fields: [teamId], references: [id])
+}
